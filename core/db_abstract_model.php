@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 
 abstract class DBAbstractModel {
 
     private static $db_host = 'localhost';
     private static $db_user = 'luzanql';
-    private static $db_pass = 'cda05efe5d';
+    private static $db_pass = 'luzanql';
     protected $db_name = 'bandodepuntos';
     protected $query;
     protected $rows = array();
