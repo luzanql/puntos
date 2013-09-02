@@ -1,0 +1,101 @@
+/* 
+    Document   : base_template
+    Created on : Aug 31, 2013, 9:46:18 AM
+    Author     : luzanql
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+margin: 0;
+padding: 0;
+}/*Quitamos unas propiedades que por defecto traen los navegadores y las ponemos en “0”*/
+html, body {
+height: 96%;
+}
+#wrap {
+min-height: 100%;
+}
+#main {
+overflow: auto;
+padding-bottom: 50px;
+text-align: center;
+}/* Altura en px del footer */
+footer {
+position: relative;
+margin-top: -50px; /* altura en px del footer con valor negativo */
+height: 5%; /* Altura del Footer en px*/
+clear: both;
+background: #B43104;
+text-align: center;
+color: #FFFFFF;
+}
+/*Opera Fix*/
+body:before {
+content: "";
+height: 100%;
+float: left;
+width: 0;
+margin-top: -32767px;/* Efecto Negativo para OPERA*/
+}
+
+header{
+position: relative;
+margin-top: 0px; /* altura en px del footer con valor negativo */
+height: 15%; /* Altura del Footer en px*/
+clear: both;
+background: #B43104;
+text-align: center;
+color: #FFFFFF;   
+    
+}
+
+form {
+    
+margin: 30px 40% 10px 20%;
+border: 1px solid #c0c0c0;
+background-color: #f9f9f9;
+padding: 8px;
+text-align: left;
+}
+
+form input
+
+{
+    size: 12px;
+    font-family: sans-serif;
+    alignment-adjust: middle;
+    color:darkcyan;
+    margin-left: 30%;
+}
+
+form input[type="submit"]{
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover
+{
+ background-color: #B43104;
+}
+
+form label
+{
+    size: 12px;
+    font-family: sans-serif;
+    margin-left: 20%
+   
+}
+
+
+    
+
+
